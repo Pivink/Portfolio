@@ -22,16 +22,16 @@ export const Footer = () => {
             </ul>
 
             <div className="footer__social">
-            <a href="https://www.facebook.com/" className="footer__social-link" target="_blank">
+            <a href="https://www.facebook.com/" className="footer__social-link">
                 <i class= "bx bxl-facebook"></i>
             </a>
 
-            <a href="https://github.com/ArrowCod" className="footer__social-link" target="_blank">
+            <a href="https://github.com/ArrowCod" className="footer__social-link">
                 <i class="bx bxl-instagram"></i>
             </a>
             
 
-            <a href="https://x.com/?lang=en" className="footer__social-link" target="_blank">
+            <a href="https://x.com/?lang=en" className="footer__social-link">
             <i class="bx bxl-twitter"></i>
             </a>
             </div>
@@ -40,5 +40,4 @@ export const Footer = () => {
     </footer>
   )
 }
-
 export default Footer
